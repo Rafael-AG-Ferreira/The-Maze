@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE MAZE</title>
+		<link rel="icon" type="image/x-icon" href="./src/images/ico2.png">
+  </head>
+  <body style="overflow: hidden;">
+    <div id="root"></div>
+    <script>
+      var playlist = 
+      [
+        "./src/Music/Music_01.mp3",
+        "./src/Music/Music_02.mp3",
+        "./src/Music/Music_03.mp3",
+        "./src/Music/Music_04.mp3",
+        "./src/Music/Music_05.mp3",
+        "./src/Music/Music_06.mp3",
+        "./src/Music/Music_07.mp3",
+        "./src/Music/Music_08.mp3",
+        "./src/Music/Music_09.mp3",
+        "./src/Music/Music_10.mp3"
+      ];
+
+      var audioPlayer = new Audio();
+      audioPlayer.volume = 0.05;
+			function Music() 
+      {
+        if (audioPlayer.duration > 0 && !audioPlayer.paused)
+        {
+          audioPlayer.pause();
+          audioPlayer.currentTime = 0;
+        }
+        else
+        {
+          audioPlayer.src = playlist[Math.floor(Math.random() * playlist.length)];
+          audioPlayer.play();
+          audioPlayer.addEventListener("ended", Music);
+        }
+			}
+      document.addEventListener('keydown', function(event)
+      {
+        switch (event.keyCode)
+        {
+          case 75:
+          Music();
+            break;
+        }
+      });
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
