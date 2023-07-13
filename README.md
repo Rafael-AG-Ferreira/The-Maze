@@ -2,7 +2,10 @@
 Implementation of a graphic application using the Three.js library.
 
 Team:
+
+@Rafael-AG-Ferreira
 @EduardoRamos2001
+
 
 ----- [PT] -----
 
