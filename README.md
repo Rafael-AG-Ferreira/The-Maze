@@ -1,6 +1,9 @@
 # The-Maze [Computer Graphics]
 Implementation of a graphic application using the Three.js library.
 
+Team:
+@EduardoRamos2001
+
 ----- [PT] -----
 
 Para a Unidade Curricular de Computação Gráfica, da Licencitura em Engenharia Informática da Universidade de Trás os Montes e Alto Douro,
