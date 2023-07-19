@@ -25,5 +25,9 @@ The goal of the game is to reach the end of a maze, using the various features i
 ![imagem (8)](https://github.com/Rafael-AG-Ferreira/The-Maze/assets/139395550/367eba19-cd61-4c58-936d-be4ade1009f3)
 
 
-<video src="https://github.com/Rafael-AG-Ferreira/The-Maze/assets/139395550/13d7ef3b-c85d-4388-ab10-7cd3faae88e7" width=50px height="auto">
+<video src="https://github.com/Rafael-AG-Ferreira/The-Maze/assets/139395550/b563ea15-f891-4bce-8cf4-6a7e3e8a9bc5" width=50px height="auto">
+
+
+
+
 
